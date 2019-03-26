@@ -822,6 +822,7 @@ var FixedDataTable = createReactClass({
           {groupHeader}
           {header}
           {rows}
+          {this.props.rowsCount == 0 ? <span>No Record Found</span> : null}
           {footer}
           {topShadow}
           {bottomShadow}
